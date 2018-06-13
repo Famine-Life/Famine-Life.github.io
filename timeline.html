@@ -1,0 +1,103 @@
+---
+layout: default
+title: 时间线
+home-title: 天地那么大 世界那么辽阔
+home-subtitle: It's fate to be here
+header-img: /assets/img/cover/earth.jpg
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
+<input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
+
+{% include header.html %}
+
+<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+        <h2><a href="{{ site.url }}">{{ page.home-title }}</a></h2>
+        <h3>{{ page.home-subtitle }}</h3>
+        {% if page.header-img %}
+        <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+        {% endif %}
+    </div>
+<main class="tags-content">
+        <div style="margin-top:100px">
+            <ul class="tags-list">
+                <li style="text-align: center;"><a>我本意是弄一条时间线轴来记录碎言碎语，无奈jekyll的语法未得精通，导致文章和这个总是混杂在一起，于是搁置中~</a></li>
+            </ul>
+        </div>
+            <!-- <ul class="tags-list">
+                <li style="text-align: center;">共 {{ site.posts.size }} 篇文章</li>
+                <li>
+                    {% for post in site.posts %}
+                    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+                    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+                    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+                    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+                    {% if forloop.first %}
+                   
+                    <span class="archive-name" id="{{ post.date | date: "%Y-%m" }}">「{{ post.date | date: "%Y年%m月" }}」</span>
+                    {% endif %}
+                    <a class="archive-post" href="{{ post.url }}">{{ post.date | date: "%m-%d" }} » {{ post.title }}</a>
+                    {% if forloop.last %}
+                </li>
+                {% else %}
+                {% if this_year != next_year %}
+                <li>
+                    <span class="archive-name" id="{{post.previous.date | date: "%Y-%m" }}">「{{ post.previous.date | date: "%Y年%m月" }}」</span>
+                    {% else %}
+                    {% if this_month != next_month %}
+                </li>
+                <li>
+                <span class="archive-name" id="{{ post.previous.date | date: "%Y-%m" }}">「{{ post.previous.date | date: "%Y年%m月" }}」</span>
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                </li>
+            </li>
+            </ul> -->
+
+        <div class="g-sidebar">
+
+            <section class="author-card">
+                <div class="avatar">
+                    <img src="{{ site.avatar | prepend: site.baseurl }}" alt="">
+                </div>
+                <div class="author-name" rel="author">{{ site.nickname }}</div>
+                <div class="bio">
+                    <p>{{ site.bio }}</p>
+                </div>
+                {% if site.sns.size > 0 %}
+                <ul id="sns-links" class="sns-links">
+                    {% for s in site.sns %}
+                    <li>
+                        <a href="{{ s[1] }}" target="_blank">
+                            <i class="iconfont icon-{{ s[0] }}"></i>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </section>
+
+        </div>
+        <div style="padding-top: 10px;">
+            <link rel="stylesheet" href="/assets/css/gh-profile-card.min.css" />
+            <script type="text/javascript" src="/assets/js/gh-profile-card.min.js"></script>
+            <div id="github-card" 
+                data-sort-by="updateTime"
+                data-header-text="最后更新仓库"
+                data-max-repos="5"
+                data-username="famine-life">
+            </div>
+        </div>
+
+    </aside>
+
+</main>
+
+{% include footer.html %}
