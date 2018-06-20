@@ -15,7 +15,7 @@ navigation:
   - title: 首页
     url: /
   - title: 时间线
-    url: /mytimeline/index.html
+    url: /mytimeline/
   - title: 归档
     url: /archive.html
   - title: 标签
