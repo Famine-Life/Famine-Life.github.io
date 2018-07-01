@@ -18,7 +18,7 @@ date: 2018-06-10
 
 * 熟能生巧
 * 勤能补拙
-* 努力改变人生
+* 我们一路奋战，不是为了改变世界、而是为了不让世界改变我们
 * Be the change you want to see in the world.
 
 ## 联系
