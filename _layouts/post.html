@@ -103,18 +103,18 @@ layout: compress
     </section>
     {% endif %}
 
-    <section>
+    <section class="post-footer-item comment">
         <div id="gitmentContainer"></div>
         <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
         <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
         <script>
             var gitment = new Gitment({
             //id: '页面 ID', // 可选。默认为 location.href  
-            owner: 'famine-life',              //我的叫Famine-life
-            repo: 'famine-life.github.io',                 //我的叫Famine-life.github.io
+            owner: 'famine-life',              
+            repo: 'famine-life.github.io',                 
             oauth: {
-                client_id: 'cdaac495f246df34e765',          //Client ID
-                client_secret: '25497e99ecb1dfc9b168b3d2d6ae6dc4bb4666bf',   //Client secret
+                client_id: 'cdaac495f246df34e765',          
+                client_secret: '25497e99ecb1dfc9b168b3d2d6ae6dc4bb4666bf',   
             },
             })
             gitment.render('gitmentContainer')
