@@ -97,15 +97,19 @@ layout: compress
         </div>
         {% endif %}
     </section>
-
+    {% if site.disqus and page.comments != false %}
+    <section class="post-footer-item comment">
+        <div id="disqus_thread"></div>
+    </section>
+    {% endif %}
     <section  class="post-footer-item comment">
-        <div id="gitmentContainer">33</div>
+        <div id="gitmentContainer"></div>
         <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
         <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
         <script>
             var gitment = new Gitment({
             owner: 'famine-life',              
-            repo: 'famini-life.github.io',                 
+            repo: 'famine-life.github.io',                 
             oauth: {
                 client_id: 'cdaac495f246df34e765',          
                 client_secret: '25497e99ecb1dfc9b168b3d2d6ae6dc4bb4666bf',   
