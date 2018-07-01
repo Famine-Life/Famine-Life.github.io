@@ -43,6 +43,11 @@ nightMode: true
 disqus: true
 disqus_url: https://blog-liantao-me.disqus.com/embed.js
 
+# Gitment
+gitment:
+  id: cdaac495f246df34e765
+  secret: 25497e99ecb1dfc9b168b3d2d6ae6dc4bb4666bf
+
 # Share
 social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
