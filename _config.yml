@@ -45,7 +45,7 @@ disqus: true
 disqus_url: https://blog-liantao-me.disqus.com/embed.js
 
 # gitment
-comment_gitment_repo: famine-life.github.io
+comment_gitment_repo: Famine-Life.github.io
 comment_gitment_clientId: cdaac495f246df34e765
 comment_gitment_clientSecret: 25497e99ecb1dfc9b168b3d2d6ae6dc4bb4666bf
 

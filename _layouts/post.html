@@ -102,7 +102,7 @@ layout: compress
         <div id="disqus_thread"></div>
     </section>
     {% endif %}
-    
+
     <section  class="post-footer-item comment">
         {% if site.comment_gitment_repo %}
         <div id="gitmentContainer"></div>
@@ -110,7 +110,6 @@ layout: compress
         <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
         <script>
             var gitment = new Gitment({
-                id: '<%= page.date %>',
                 owner: '{{site.github_username}}',
                 repo: '{{site.comment_gitment_repo}}',
                 oauth: {
