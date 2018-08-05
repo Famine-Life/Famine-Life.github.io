@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MyBatis学习——我的第一个MyBatis程序
-cover: /img/cover/MyBatis01.jpg
+cover: /img/cover/mybatis01.png
 tags: ['MyBatis', '开源', '框架']
 ---
 
