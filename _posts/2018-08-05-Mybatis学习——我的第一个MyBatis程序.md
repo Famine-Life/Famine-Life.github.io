@@ -19,14 +19,14 @@ ArtifactID是项目的唯一的标识符，实际对应项目的名称，就是�
 
 [![newMaven2](https://i.screenshot.net/p/k4ekkbk?9b7a5d286a82d5f1afaabf0c9052324c "newMaven2")](https://i.screenshot.net/p/k4ekkbk?9b7a5d286a82d5f1afaabf0c9052324c "newMaven2")
 
-修改pom.xml文件，在这看吧：[地址]{https://github.com/famine-life}
+修改pom.xml文件，在这看吧：[地址](https://github.com/famine-life/CodeRep)
 
 #### 2、创建mybatis项目，（添加 `<parent><!-- 引入父工程 --></parent>`）
 
 创建过程：略
 
 修改pom.xml
-```java
+```bash
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -88,7 +88,7 @@ INSERT INTO `t_user` VALUES ('1', 'zhangsan', '123456', '落尘曦', '30', '1', 
 
 #### 4、在src/main/java下创建包com.liantao.pojo，在pojo下创建实体类User.java
 
-```java
+```bash
 package com.liantao.pojo;
  
 import java.util.Date;
@@ -205,7 +205,7 @@ public class User {
 
 #### 5、在src/main/resources创建mybatis-config.xml
 记得改为你自己的配置
-```xml
+```bash
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
@@ -236,7 +236,7 @@ public class User {
 **注意mapers下的mapper的resource地址不要写错**
 
 #### 6、创建User实体方法定义，在src/main/resources下创建文件夹mapper，然后创建UserMapper.xml
-```xml
+```bash
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper
 	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
@@ -252,7 +252,7 @@ public class User {
 ```
 
 #### 7、在main/java下创建com.liantao.mybatis包，再创建MyBatisDemo.java
-```java
+```bash
 package com.liantao.mybatis;
 
 import java.io.IOException;
