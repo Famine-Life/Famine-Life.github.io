@@ -19,7 +19,7 @@ ArtifactID是项目的唯一的标识符，实际对应项目的名称，就是�
 
 [![newMaven2](https://i.screenshot.net/p/k4ekkbk?9b7a5d286a82d5f1afaabf0c9052324c "newMaven2")](https://i.screenshot.net/p/k4ekkbk?9b7a5d286a82d5f1afaabf0c9052324c "newMaven2")
 
-修改pom.xml文件，在这看吧：[地址](https://github.com/famine-life/CodeRep)
+修改pom.xml文件，在这看吧：[地址](https://github.com/Famine-Life/myCodeRepo/blob/master/maven-parent/pom.xml)
 
 #### 2、创建mybatis项目，（添加 `<parent><!-- 引入父工程 --></parent>`）
 
