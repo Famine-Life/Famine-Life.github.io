@@ -12,7 +12,7 @@ date: 2018-06-10
 
 也为了能在偌大的互联网有我的足迹。。
 
-我的[博客](https://liantao.me){:target="_blank"}托管在 [这家云服务器](https://my.cloudleft.com/aff.php?aff=498){:target="_blank"}
+我的[个人主页](https://liantao.me){:target="_blank"}
 
 ## 坚信
 
