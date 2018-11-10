@@ -78,14 +78,14 @@ paginate: 6
 paginate_path: 'articles/:num'
 
 # Markdown
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: true
-
-# Fixing highlighting errors: pygments not supported.
-
-highlighter: rouge
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+  toc_levels:     '2,3'
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
 
 jekyll-archives:
   enabled:
