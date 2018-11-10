@@ -124,3 +124,5 @@ exclude:
   - screenshot
   - LICENSE
   - README.md
+
+encoding: "utf-8"

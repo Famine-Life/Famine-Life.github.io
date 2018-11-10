@@ -53,15 +53,15 @@ github地址：[传送门](https://github.com/axios/axios)
 
 
 
-```html
+~~~html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-```
+~~~
 
 
 
 ### 本文中axios的使用实例：
 
-```javascript
+~~~javascript
                     axios
 
                         .get("https://api.github.com/users/"+this.username)
@@ -74,7 +74,7 @@ github地址：[传送门](https://github.com/axios/axios)
                             this.errored = true;
                         })
                         .finally(() => this.loading = false);
-```
+~~~
 
 
 
@@ -96,19 +96,19 @@ github地址：[传送门](https://github.com/axios/axios)
 
 **data声明：**
 
-```javascript
+~~~javascript
 data:{
 
       result:[],
 
       },
-```
+~~~
 
 **赋值**
 
-```javascript
+~~~javascript
 app.result = response.data;
-```
+~~~
 
 
 
@@ -126,13 +126,13 @@ app.result = response.data;
 
    
 
-   ```javascript
+   ~~~javascript
        <!-- {{result}} -->
                        <dl class="dl-horizontal"  v-for="(value, key) in result">
                            <dt>{{key||"无"}}</dt>
                            <dd>{{value||"无"}}</dd>
                        </dl>
-   ```
+   ~~~
 
    值得注意的是，(value, key)的顺序。
 
@@ -146,7 +146,7 @@ app.result = response.data;
 
 #### what？懒得拿？行吧！
 
-```javascript
+~~~javascript
 <!DOCTYPE html>
 <html>
 <head>
@@ -269,7 +269,7 @@ app.result = response.data;
     </script>
 </body>
 </html>
-```
+~~~
 
 
 
