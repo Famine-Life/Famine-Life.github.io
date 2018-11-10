@@ -78,7 +78,7 @@ paginate: 6
 paginate_path: 'articles/:num'
 
 # Markdown
-highlighter: rouge
+
 markdown: kramdown
 kramdown:
   input: GFM
