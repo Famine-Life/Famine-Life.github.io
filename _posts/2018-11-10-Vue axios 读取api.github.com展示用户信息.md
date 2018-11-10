@@ -146,7 +146,8 @@ app.result = response.data;
 
 #### what？懒得拿？行吧！
 
-~~~javascript
+~~~
+
 <!DOCTYPE html>
 <html>
 <head>
