@@ -3,7 +3,7 @@ layout: post
 
 title: Vue axios 读取api.github.com展示用户信息
 
-cover: /img/cover/githu_hero.svg
+cover: /img/cover/github_hero.svg
 
 tags: ['Vue', 'axios']
 ---
