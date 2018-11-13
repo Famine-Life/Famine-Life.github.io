@@ -20,6 +20,7 @@ date: 2018-01-01
 * [唐栋](http://lilyhuli.cn/){:target="_blank"}
 * [StevenKin](http://stevenkin.xyz/){:target="_blank"}
 * [风雨it路](https://www.jianshu.com/u/2ab96456bfc3){:target="_blank"}
+* [荔枝](https://blog.yizhilee.com/){:target="_blank"}
 
 其他友链：
 * [这个还是我](https://liantao.me){:target="_blank"}
