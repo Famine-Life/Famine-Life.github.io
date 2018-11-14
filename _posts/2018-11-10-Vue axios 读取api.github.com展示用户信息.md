@@ -112,7 +112,7 @@ app.result = response.data;
 
 
 
-2. 通过获取到data里的value图片地址，添加到`<img>`标签的`src=""`的地址栏中，从而实现图片展示，我第一反应是使用`{{ data.url }}`的形式传入，但是`{{}}`写在引号里就不管用了，所以：
+2. 通过获取到data里的value图片地址，添加到`<img>`标签的`src=""`的地址栏中，从而实现图片展示，我第一反应是使用"{{ data.url }}"的形式传入，但是"{}"写在引号里就不管用了，所以：
 
    ```javascript
    <img v-bind:src="result.avatar_url">

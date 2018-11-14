@@ -9,7 +9,7 @@ date: 2018-01-01
 我的榜样:
 * [王爵](Https://blog.biezhi.me){:target="_blank"}
 
-后端料理群：
+后端料理友链：
 * [charelyz](https://i.charelyz.cn){:target="_blank"}
 * [7蓝](https://blog.os7blue.com/){:target="_blank"}
 * [datayang](https://www.datayang.com/){:target="_blank"}
@@ -23,6 +23,6 @@ date: 2018-01-01
 * [荔枝](https://blog.yizhilee.com/){:target="_blank"}
 
 其他友链：
-* [这个还是我](https://liantao.me){:target="_blank"}
-
+* [搁浅](https://www.cnblogs.com/aishangJava/){:target="_blank"}
+* [sczyh30](https://www.sczyh30.com/){:target="_blank"}
 有人来交换友链么？
