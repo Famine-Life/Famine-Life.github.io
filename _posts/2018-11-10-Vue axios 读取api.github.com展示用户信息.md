@@ -10,7 +10,7 @@ tags: ['Vue', 'axios']
 
 
 
-### 前言
+## 前言
 
 > 本文是基于[Vue axios 读取api.github.com展示用户信息](https://blog.liantao.me/VueRep)功能原理的简单介绍，由于初学Vue有太多的不懂，导致数据展示以及Vue data数据的提取和传递造成了巨大的阻碍，在这里分享一些过程。
 > 
@@ -33,7 +33,7 @@ tags: ['Vue', 'axios']
 
 
 
-### 首先，`axios`是什么?
+## 首先，`axios`是什么?
 
 `axios` 是基于 promise 的 HTTP 客户端，用于页面和后台数据的网络交互。
 
@@ -41,7 +41,7 @@ github地址：[传送门](https://github.com/axios/axios)
 
 
 
-### 为什么要用`axios`？
+## 为什么要用`axios`？
 
 开源、独立
 
@@ -49,7 +49,7 @@ github地址：[传送门](https://github.com/axios/axios)
 
 
 
-### 使用方法(参考axios文档)
+## 使用方法(参考axios文档)
 
 
 
@@ -59,7 +59,7 @@ github地址：[传送门](https://github.com/axios/axios)
 
 
 
-### 本文中axios的使用实例：
+## 本文中axios的使用实例：
 
 ~~~javascript
                     axios
