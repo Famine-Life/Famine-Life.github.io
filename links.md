@@ -25,4 +25,6 @@ date: 2018-01-01
 其他友链：
 * [搁浅](https://www.cnblogs.com/aishangJava/){:target="_blank"}
 * [sczyh30](https://www.sczyh30.com/){:target="_blank"}
+* [木兮](https://hwy.ac.cn/){:target="_blank"}
+
 有人来交换友链么？
