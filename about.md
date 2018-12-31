@@ -20,6 +20,7 @@ date: 2018-06-10
 * 勤能补拙
 * 我们一路奋战，不是为了改变世界、而是为了不让世界改变我们
 * Be the change you want to see in the world.
+* 后之视今，亦犹今之视昔乎？
 
 ## 联系
 
